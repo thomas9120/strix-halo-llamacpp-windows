@@ -20,7 +20,7 @@ permissions:
 
 env:
   LLAMA_REPO: Nathanw1014/llama.cpp
-  VULKAN_VERSION: 1.4.350.1
+  VULKAN_VERSION: 1.4.350.0
 
 jobs:
   build-release:
