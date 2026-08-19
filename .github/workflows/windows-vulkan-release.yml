@@ -54,6 +54,7 @@ jobs:
             -DGGML_VULKAN=ON `
             -DGGML_NATIVE=OFF `
             -DLLAMA_CURL=OFF `
+            -DLLAMA_OPENSSL=OFF `
             "-DVulkan_INCLUDE_DIR=$env:VULKAN_SDK\Include" `
             "-DVulkan_LIBRARY=$env:VULKAN_SDK\Lib\vulkan-1.lib" `
             "-DVulkan_GLSLC_EXECUTABLE=$env:VULKAN_SDK\Bin\glslc.exe"
